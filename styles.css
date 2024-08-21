@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+
+body {
+  color: #fff;
+  background: linear-gradient(#b99470, #c0c78c);
+  text-align: center;
+  font-family: "Birthstone", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 4px black;
+}
+
+#title {
+  font-size: 3rem;
+}
+
+#photo {
+  width: 250px;
+  border: 3px solid #a6b37d;
+}
+
+#age {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+#date {
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.gift-hint {
+  font-size: 2rem;
+  margin-top: 2px;
+}
+
+.present {
+  background-image: url("images/present.png");
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  margin: 0 auto;
+  border: 5px solid #f4deb3;
+  border-radius: 10px;
+}
+
+.gift-title:nth-of-type(1n + 1) {
+  margin-bottom: 10px;
+}
+
+#present-one:hover {
+  background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWEzdnM1OW4ycnQ5MjNhamVzYTQ2Y3NiYTUzamFvbnRxNDk2cjBpZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SwIMZUJE3ZPpHAfTC4/giphy.webp");
+}
+
+#present-two:hover {
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2NnaTZxdzNna29pNTB0Z3N4dXA4dGUzd21vbjNrNXF2cWs5ZndxaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JUqiFbumTAPYIeM8yJ/giphy.webp");
+}
+
+#present-three:hover {
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2kyNHduamVkZXQ5OTRuY2Z0Y21xdDd5YW5mNzV5b3g0eHQ4NjI0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CdwvDXD6bqCcw/giphy.webp");
+}
+
+#present-four:hover {
+  background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2diam9uMzBzODJoZjdrenRidGN0cTM2b24xdnFzNWtuZXVtOW9keSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mrTjb8ZXFeJdC/giphy.webp");
+}
